@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test API Scenario,,all task API,,2022-10-03 21:49:15,2022-10-03 21:49:36,21.241s,PASSED
+,,,,,,,
+Test Cases/API/Login with empty password,,,,2022-10-03 21:49:15,2022-10-03 21:49:23,7.566s,PASSED
+"response = sendRequest(findTestObject(""API/UsernamePasswordLogin"", [""org_name"":""testonboard"", ""email"":""abc@mile.com"", ""password"":""""]))",,,,2022-10-03 21:49:16,2022-10-03 21:49:23,6.434s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2022-10-03 21:49:23,2022-10-03 21:49:23,0.024s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-10-03 21:49:23,2022-10-03 21:49:23,0.166s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""The user.password field is required."")",,,,2022-10-03 21:49:23,2022-10-03 21:49:23,0.058s,PASSED
+,,,,,,,
+Test Cases/API/Login with empty username,,,,2022-10-03 21:49:23,2022-10-03 21:49:25,2.625s,PASSED
+"response = sendRequest(findTestObject(""API/UsernamePasswordLogin"", [""org_name"":"""", ""email"":"""", ""password"":""12345678s""]))",,,,2022-10-03 21:49:23,2022-10-03 21:49:25,1.947s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2022-10-03 21:49:25,2022-10-03 21:49:25,0.007s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-10-03 21:49:25,2022-10-03 21:49:25,0.040s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""The user.email field is required."")",,,,2022-10-03 21:49:25,2022-10-03 21:49:25,0.041s,PASSED
+,,,,,,,
+Test Cases/API/Login with wrong organization name,,,,2022-10-03 21:49:25,2022-10-03 21:49:28,2.648s,PASSED
+"response = sendRequest(findTestObject(""API/UsernamePasswordLogin"", [""org_name"":""testlain"", ""email"":""abc@mile.com"", ""password"":""123121""]))",,,,2022-10-03 21:49:26,2022-10-03 21:49:28,1.946s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2022-10-03 21:49:28,2022-10-03 21:49:28,0.009s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-10-03 21:49:28,2022-10-03 21:49:28,0.033s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""Organization not found"")",,,,2022-10-03 21:49:28,2022-10-03 21:49:28,0.034s,PASSED
+,,,,,,,
+Test Cases/API/Login with wrong username and password,,,,2022-10-03 21:49:28,2022-10-03 21:49:31,2.618s,PASSED
+"response = sendRequest(findTestObject(""API/UsernamePasswordLogin"", [""org_name"":""testonboard"", ""email"":""abc@mile.com"", ""password"":""12346789""]))",,,,2022-10-03 21:49:29,2022-10-03 21:49:31,1.800s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2022-10-03 21:49:31,2022-10-03 21:49:31,0.004s,PASSED
+"verifyElementPropertyValue(response, ""status"", ""false"")",,,,2022-10-03 21:49:31,2022-10-03 21:49:31,0.043s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""Login failed, please check your email or password."")",,,,2022-10-03 21:49:31,2022-10-03 21:49:31,0.048s,PASSED
+,,,,,,,
+Test Cases/API/Organization login with invalid name,,,,2022-10-03 21:49:31,2022-10-03 21:49:33,2.461s,PASSED
+"response = sendRequest(findTestObject(""API/OrganizationLogin"", [""org_name"":""""]))",,,,2022-10-03 21:49:31,2022-10-03 21:49:33,1.792s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2022-10-03 21:49:33,2022-10-03 21:49:33,0.008s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""Organization not found"")",,,,2022-10-03 21:49:33,2022-10-03 21:49:33,0.045s,PASSED
+,,,,,,,
+Test Cases/API/Organization Login with valid name,,,,2022-10-03 21:49:33,2022-10-03 21:49:36,2.690s,PASSED
+"org_name = ""testonboard""",,,,2022-10-03 21:49:34,2022-10-03 21:49:34,0.001s,PASSED
+"response = sendRequest(findTestObject(""API/OrganizationLogin"", [""org_name"":org_name]))",,,,2022-10-03 21:49:34,2022-10-03 21:49:36,1.951s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.007s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.002s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.019s,PASSED
+status = status,,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.001s,PASSED
+_id = _id,,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.010s,PASSED
+name = name,,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.001s,PASSED
+"if (_id == """")",,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.001s,PASSED
+if (name != org_name),,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.001s,PASSED
+if (status == null),,,,2022-10-03 21:49:36,2022-10-03 21:49:36,0.000s,PASSED

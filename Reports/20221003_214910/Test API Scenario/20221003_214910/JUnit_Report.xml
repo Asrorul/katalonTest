@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test API Scenario" time="21.241" tests="6" failures="0" errors="0">
+   <testsuite name="Test API Scenario" tests="6" failures="0" errors="0" time="21.241" skipped="0" timestamp="2022-10-03 21:49:15" hostname="Asrorul - DESKTOP-KEO64C2.mshome.net" id="Test Suites/Test API Scenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\acer\\git\\katalonTest\\Reports\\20221003_214910\\Test API Scenario\\20221003_214910"/>
+         <property name="logFiles" value="C:\\Users\\acer\\git\\katalonTest\\Reports\\20221003_214910\\Test API Scenario\\20221003_214910\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asrorul - DESKTOP-KEO64C2.mshome.net"/>
+         <property name="hostAddress" value="172.19.64.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/API/Login with empty password" time="7.566" classname="Test Cases/API/Login with empty password" status="PASSED">
+         <system-out><![CDATA[2022-10-03 21:49:15 - [TEST_CASE][PASSED] - Test Cases/API/Login with empty password: Test Cases/API/Login with empty password
+
+2022-10-03 21:49:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/UsernamePasswordLogin", ["org_name":"testonboard", "email":"abc@mile.com", "password":""])): Send request successfully
+
+2022-10-03 21:49:22 - [MESSAGE][INFO] - HAR: C:\Users\acer\git\katalonTest\Reports\20221003_214910\Test API Scenario\20221003_214910\requests\main\0.har
+
+2022-10-03 21:49:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-03 21:49:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2022-10-03 21:49:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-03 21:49:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-10-03 21:49:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-03 21:49:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "The user.password field is required."): Verify element property value successfully
+
+2022-10-03 21:49:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Login with empty username" time="2.625" classname="Test Cases/API/Login with empty username" status="PASSED">
+         <system-out><![CDATA[2022-10-03 21:49:23 - [TEST_CASE][PASSED] - Test Cases/API/Login with empty username: Test Cases/API/Login with empty username
+
+2022-10-03 21:49:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/UsernamePasswordLogin", ["org_name":"", "email":"", "password":"12345678s"])): Send request successfully
+
+2022-10-03 21:49:25 - [MESSAGE][INFO] - HAR: C:\Users\acer\git\katalonTest\Reports\20221003_214910\Test API Scenario\20221003_214910\requests\main\1.har
+
+2022-10-03 21:49:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-03 21:49:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2022-10-03 21:49:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-03 21:49:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-10-03 21:49:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-03 21:49:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "The user.email field is required."): Verify element property value successfully
+
+2022-10-03 21:49:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Login with wrong organization name" time="2.648" classname="Test Cases/API/Login with wrong organization name" status="PASSED">
+         <system-out><![CDATA[2022-10-03 21:49:25 - [TEST_CASE][PASSED] - Test Cases/API/Login with wrong organization name: Test Cases/API/Login with wrong organization name
+
+2022-10-03 21:49:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/UsernamePasswordLogin", ["org_name":"testlain", "email":"abc@mile.com", "password":"123121"])): Send request successfully
+
+2022-10-03 21:49:28 - [MESSAGE][INFO] - HAR: C:\Users\acer\git\katalonTest\Reports\20221003_214910\Test API Scenario\20221003_214910\requests\main\2.har
+
+2022-10-03 21:49:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-03 21:49:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2022-10-03 21:49:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-03 21:49:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-10-03 21:49:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-03 21:49:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Organization not found"): Verify element property value successfully
+
+2022-10-03 21:49:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Login with wrong username and password" time="2.618" classname="Test Cases/API/Login with wrong username and password" status="PASSED">
+         <system-out><![CDATA[2022-10-03 21:49:28 - [TEST_CASE][PASSED] - Test Cases/API/Login with wrong username and password: Test Cases/API/Login with wrong username and password
+
+2022-10-03 21:49:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/UsernamePasswordLogin", ["org_name":"testonboard", "email":"abc@mile.com", "password":"12346789"])): Send request successfully
+
+2022-10-03 21:49:31 - [MESSAGE][INFO] - HAR: C:\Users\acer\git\katalonTest\Reports\20221003_214910\Test API Scenario\20221003_214910\requests\main\3.har
+
+2022-10-03 21:49:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-03 21:49:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2022-10-03 21:49:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-03 21:49:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2022-10-03 21:49:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-03 21:49:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Login failed, please check your email or password."): Verify element property value successfully
+
+2022-10-03 21:49:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Organization login with invalid name" time="2.461" classname="Test Cases/API/Organization login with invalid name" status="PASSED">
+         <system-out><![CDATA[2022-10-03 21:49:31 - [TEST_CASE][PASSED] - Test Cases/API/Organization login with invalid name: Test Cases/API/Organization login with invalid name
+
+2022-10-03 21:49:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OrganizationLogin", ["org_name":""])): Send request successfully
+
+2022-10-03 21:49:33 - [MESSAGE][INFO] - HAR: C:\Users\acer\git\katalonTest\Reports\20221003_214910\Test API Scenario\20221003_214910\requests\main\4.har
+
+2022-10-03 21:49:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-03 21:49:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2022-10-03 21:49:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-03 21:49:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Organization not found"): Verify element property value successfully
+
+2022-10-03 21:49:33 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Organization Login with valid name" time="2.69" classname="Test Cases/API/Organization Login with valid name" status="PASSED">
+         <system-out><![CDATA[2022-10-03 21:49:33 - [TEST_CASE][PASSED] - Test Cases/API/Organization Login with valid name: Test Cases/API/Organization Login with valid name
+
+2022-10-03 21:49:34 - [TEST_STEP][PASSED] - org_name = "testonboard": null
+
+2022-10-03 21:49:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OrganizationLogin", ["org_name":org_name])): Send request successfully
+
+2022-10-03 21:49:36 - [MESSAGE][INFO] - HAR: C:\Users\acer\git\katalonTest\Reports\20221003_214910\Test API Scenario\20221003_214910\requests\main\5.har
+
+2022-10-03 21:49:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-03 21:49:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - status = status: null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - _id = _id: null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - name = name: null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - if (_id == ""): null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - if (name != org_name): null
+
+2022-10-03 21:49:36 - [TEST_STEP][PASSED] - if (status == null): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-03 21:49:15 - [TEST_SUITE][PASSED] - Test API Scenario: Test Cases/API/Organization Login with valid name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

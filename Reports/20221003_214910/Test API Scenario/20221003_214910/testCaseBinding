@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/API/Login with empty password","testCaseId":"Test Cases/API/Login with empty password","iterationVariableName":""}
+{"testCaseName":"Test Cases/API/Login with empty username","testCaseId":"Test Cases/API/Login with empty username","iterationVariableName":""}
+{"testCaseName":"Test Cases/API/Login with wrong organization name","testCaseId":"Test Cases/API/Login with wrong organization name","iterationVariableName":""}
+{"testCaseName":"Test Cases/API/Login with wrong username and password","testCaseId":"Test Cases/API/Login with wrong username and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/API/Organization login with invalid name","testCaseId":"Test Cases/API/Organization login with invalid name","iterationVariableName":""}
+{"testCaseName":"Test Cases/API/Organization Login with valid name","testCaseId":"Test Cases/API/Organization Login with valid name","iterationVariableName":""}
