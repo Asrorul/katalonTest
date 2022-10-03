@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Login</name>
+   <tag></tag>
+   <elementGuidId>a7e9eb89-01b6-4be2-b420-96be9d116fe7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.el-button.button.el-button--primary > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9d7ae5ee-8561-4717-94c1-8e08638f72f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>aa94b1aa-7b2a-487f-8d2b-863a9d5d1e06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;login_page&quot;]/div[@class=&quot;bg&quot;]/div[@class=&quot;container login_container&quot;]/div[@class=&quot;inner_content el-row is-justify-left&quot;]/div[@class=&quot;el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-md-8 el-col-lg-8 el-col-xl-8&quot;]/div[@class=&quot;el-row&quot;]/div[@class=&quot;el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-md-24 el-col-lg-24 el-col-xl-24&quot;]/div[@class=&quot;login_card&quot;]/button[@class=&quot;el-button button el-button--primary&quot;]/span[1]</value>
+      <webElementGuid>16fa834e-9fc2-47e5-8f50-ead2ca1e8016</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/button/span</value>
+      <webElementGuid>dc86c203-0939-4ed3-9956-905842e5c29d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[4]</value>
+      <webElementGuid>c16acf3c-f256-4c88-95ec-c244aa1440a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email or Username'])[1]/following::span[5]</value>
+      <webElementGuid>59761071-44dd-4042-bc45-ea481165d4f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::span[1]</value>
+      <webElementGuid>2e017a41-fb15-4e01-ab02-12bb108c32b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright 2021 PT. Paket Informasi Digital. All Rights Reserved'])[1]/preceding::span[1]</value>
+      <webElementGuid>d645aa08-aafd-4d62-9c4c-f6c75785ada3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>0e831833-a0fd-428d-895f-c3148dce297e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>d0ae49ca-006d-4642-b0a7-d5a54c1f8b8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

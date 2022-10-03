@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Email or Username_el-form-item__content</name>
+   <tag></tag>
+   <elementGuidId>a496e241-0fd1-409e-a7b1-ad91cd5d5b86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/form[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8839569a-adbe-4507-a052-5cfe74c0821c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-form-item__content</value>
+      <webElementGuid>7145a56b-182a-48b5-9f2b-ff9e49eba684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;login_page&quot;]/div[@class=&quot;bg&quot;]/div[@class=&quot;container login_container&quot;]/div[@class=&quot;inner_content el-row is-justify-left&quot;]/div[@class=&quot;el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-md-8 el-col-lg-8 el-col-xl-8&quot;]/div[@class=&quot;el-row&quot;]/div[@class=&quot;el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-md-24 el-col-lg-24 el-col-xl-24&quot;]/div[@class=&quot;login_card&quot;]/form[@class=&quot;el-form inputLogin&quot;]/div[@class=&quot;el-form-item form-dialog-item&quot;]/div[@class=&quot;el-form-item__content&quot;]</value>
+      <webElementGuid>7ebdced8-6d82-4ae1-ac53-f2aaad523af0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/form[2]/div/div</value>
+      <webElementGuid>72011138-4393-450e-a31a-8a85db53611a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email or Username'])[1]/following::div[1]</value>
+      <webElementGuid>3e9b39d1-a586-4dde-a716-640f4b9131d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Name'])[1]/following::div[6]</value>
+      <webElementGuid>ca2ae1a2-0b75-4e8a-881e-1605b5818d38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[2]</value>
+      <webElementGuid>775dc6cf-9a61-46bd-9620-b6d3cd835271</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[6]</value>
+      <webElementGuid>825a8146-8394-4dfb-875d-a97efa5ea76b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[2]/div/div</value>
+      <webElementGuid>e57e35a6-3555-448b-bd31-bccbf97163cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

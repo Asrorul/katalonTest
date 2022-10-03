@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Organization Name_organization</name>
+   <tag></tag>
+   <elementGuidId>9c928caf-231e-48b8-9652-60c636443a7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div/div[1]/div[1]/div/div/div[2]/form[1]/div/div/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Type and press enter' and @name = 'organization']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;organization&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='organization']</value>
+      <webElementGuid>18e0ba69-8298-4b3f-bfb0-560a4ee3fe6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div/input</value>
+      <webElementGuid>d559d058-403c-4476-a9f5-e2899e11e96a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>aafafb70-82f0-4eee-a503-f4d3287ebba6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Type and press enter' and @name = 'organization']</value>
+      <webElementGuid>213e2501-4f16-4703-9165-1199d17af5f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Login failed, please check your email or _55650e</name>
+   <tag></tag>
+   <elementGuidId>551016c0-6637-47a3-8718-da6f43012603</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.el-alert__description</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f1a8f250-a316-41f4-9648-7c6f41968c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-alert__description</value>
+      <webElementGuid>cd6f656b-f676-4b71-88bd-8a08f47c24d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login failed, please check your email or password.</value>
+      <webElementGuid>1c1a4e2f-f124-495b-a09d-d1acb1d4745b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;login_page&quot;]/div[@class=&quot;bg&quot;]/div[@class=&quot;container login_container&quot;]/div[@class=&quot;inner_content el-row is-justify-left&quot;]/div[@class=&quot;el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-md-8 el-col-lg-8 el-col-xl-8&quot;]/div[@class=&quot;el-row&quot;]/div[@class=&quot;el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-md-24 el-col-lg-24 el-col-xl-24&quot;]/div[1]/div[@class=&quot;el-alert el-alert--error is-light&quot;]/div[@class=&quot;el-alert__content&quot;]/p[@class=&quot;el-alert__description&quot;]</value>
+      <webElementGuid>6fe47d0b-73cd-44d8-9015-41c1274511d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/p</value>
+      <webElementGuid>6941f76f-c22d-4714-aae0-dede037330d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to home'])[1]/following::p[1]</value>
+      <webElementGuid>003c6b2f-007b-48a2-8f73-f7b2f2a5ed7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indonesia'])[1]/following::p[1]</value>
+      <webElementGuid>d484c58e-2276-4f38-9104-25463fcb5311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::p[1]</value>
+      <webElementGuid>0e64da85-20ea-4447-b2b5-aa9af4b39e7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Name'])[1]/preceding::p[1]</value>
+      <webElementGuid>e348d72d-16c8-4606-acb0-f5099c88e255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login failed, please check your email or password.']/parent::*</value>
+      <webElementGuid>d9186a21-b949-495d-8f10-97f9f14aaac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>a9b8f9a1-8164-4cf8-a71c-50f9b58e355b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Login failed, please check your email or password.' or . = 'Login failed, please check your email or password.')]</value>
+      <webElementGuid>72bd5480-45c2-4039-b051-6cbd5f842032</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

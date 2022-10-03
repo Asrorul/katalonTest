@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with empty username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe2e37b9-47fb-4b24-82ed-3d8666b2c85d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e5a4e26-b68c-4403-a3c7-03fe119cc3e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e3d33ec-5f39-4560-b4ff-cd0a45c73034</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>762109ae-3870-419d-980b-481dad0cde33</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testonboard'</defaultValue>
+      <description></description>
+      <id>6e5a4e26-b68c-4403-a3c7-03fe119cc3e2</id>
+      <masked>false</masked>
+      <name>org_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e3d33ec-5f39-4560-b4ff-cd0a45c73034</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>762109ae-3870-419d-980b-481dad0cde33</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

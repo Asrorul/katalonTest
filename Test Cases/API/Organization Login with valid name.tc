@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Organization Login with valid name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3c8df31-3523-47eb-90be-6fcda4f91236</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e8c1d71-2484-4b4b-9a08-70eb0bbf8a7c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testonboard'</defaultValue>
+      <description></description>
+      <id>1e8c1d71-2484-4b4b-9a08-70eb0bbf8a7c</id>
+      <masked>false</masked>
+      <name>org_name</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with valid organization name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc1155b2-dee1-4e43-9fbf-77a912be39e5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>check error messagee when try to login using less than 6 characters</description>
+   <name>Login with wrong username and profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48fdbb7a-4304-4816-98a6-bf3380afc6ff</testCaseGuid>
+</TestCaseEntity>
